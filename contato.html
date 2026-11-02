@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pata Amiga | Contato</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/formulario.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo da Pata Amiga" width="40" height="40">
+            Pata Amiga
+        </a>
+    </header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <main>
+        <h1>Fale com a gente</h1>
+
+        <h2>Como participar</h2>
+        <p>Você pode ser voluntário nos pontos de alimentação, oferecer um lar temporário, doar ração ou divulgar nossos projetos nas redes sociais.</p>
+        <p>Atenção: este formulário é apenas uma simulação acadêmica. Nenhuma mensagem é enviada e nenhum dado é guardado.</p>
+
+        <form id="formContato" novalidate>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required minlength="3">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required>
+
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="5" required minlength="10"></textarea>
+
+            <button class="botao" type="submit">Enviar mensagem</button>
+
+            <p id="mensagemErro"></p>
+            <p id="mensagemSucesso"></p>
+        </form>
+    </main>
+    <footer>
+        <p>Pata Amiga: ONG fictícia criada para o Projeto Integrador da UNICID. Protótipo acadêmico, sem doações reais.</p>
+    </footer>
+</body>
+</html>
