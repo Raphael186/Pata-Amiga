@@ -1,3 +1,9 @@
+<div align="center">
+  <a href="https://seu-usuario.github.io/pata-amiga/">
+    <img src="https://img.shields.io/badge/🌐_Acessar_Site-Ver_Online-9a4a0a?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Acessar Site Online">
+  </a>
+</div>
+
 # Pata Amiga — Site Institucional de ONG
 
 ## 🐾 Sobre a ONG
